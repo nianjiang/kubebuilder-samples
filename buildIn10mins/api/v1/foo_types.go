@@ -28,8 +28,8 @@ type FooSpec struct {
 	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
 
-	// Foo is an example field of Foo. Edit foo_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	// Name of the friend Foo is looking for
+	Name string `json:"name"`
 }
 
 // FooStatus defines the observed state of Foo
